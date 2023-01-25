@@ -1,0 +1,107 @@
+{
+    "sklearn": {
+        "columns": [
+            "cons_12m",
+            "cons_last_month",
+            "forecast_cons_12m",
+            "forecast_cons_year",
+            "forecast_discount_energy",
+            "forecast_meter_rent_12m",
+            "forecast_price_pow_off_peak",
+            "imp_cons",
+            "margin_gross_pow_ele",
+            "nb_prod_act",
+            "num_years_antig",
+            "pow_max",
+            "has_gas_t",
+            "price_diff_energy_peak_offpeak",
+            "contract_length"
+        ],
+        "environment": [
+            "scikit-learn=1.2.0"
+        ],
+        "example_input": {
+            "cons_12m": [
+                22353.0,
+                18097.0,
+                1893.0
+            ],
+            "cons_last_month": [
+                300.0,
+                0.0,
+                0.0
+            ],
+            "contract_length": [
+                2574,
+                2243,
+                2393
+            ],
+            "forecast_cons_12m": [
+                1376.530029296875,
+                1810.1199951171875,
+                284.42999267578125
+            ],
+            "forecast_cons_year": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "forecast_discount_energy": [
+                0,
+                0,
+                0
+            ],
+            "forecast_meter_rent_12m": [
+                0.0,
+                126.66000366210938,
+                19.809999465942383
+            ],
+            "forecast_price_pow_off_peak": [
+                44.311378479003906,
+                40.6067008972168,
+                44.311378479003906
+            ],
+            "has_gas_t": [
+                0,
+                0,
+                0
+            ],
+            "imp_cons": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "margin_gross_pow_ele": [
+                29.5,
+                27.0,
+                9.399999618530273
+            ],
+            "nb_prod_act": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "num_years_antig": [
+                6.0,
+                6.0,
+                6.0
+            ],
+            "pow_max": [
+                14.300000190734863,
+                18.0,
+                12.5
+            ],
+            "price_diff_energy_peak_offpeak": [
+                -0.1458740234375,
+                -0.016845703125,
+                -0.145751953125
+            ]
+        },
+        "model": {
+            "file": "rf_model.pkl"
+        },
+        "model_format": "pickle",
+        "task": "tabular-classification",
+        "use_intelex": false
+    }
+}
